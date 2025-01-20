@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // Configure CORS
 const corsOptions = {
-    origin: 'http://localhost:4200', // Domínio do seu frontend
+    origin: 'https://matheusbatistadev.com',
     optionsSuccessStatus: 200
 };
 
