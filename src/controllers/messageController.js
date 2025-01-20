@@ -26,4 +26,8 @@ const getMessages = async (req, res) => {
     }
 };
 
-module.exports = { sendMessage, getMessages };
+const sync = async (req, res) => {
+        res.status(200).json();
+};
+
+module.exports = { sendMessage, getMessages, sync };
